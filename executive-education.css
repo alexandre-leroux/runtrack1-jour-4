@@ -1,0 +1,45 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #88c1d0;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 2rem;
+    text-align: justify;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    padding-left: 5px;
+    margin: auto;
+}
+
+button {
+    justify-content: center;
+    font-size: large;
+    padding : 20px;
+    border-radius: 35%;
+    border-color: solid 1px #FFCA4B;
+    background-color: #FFCA4B;
+}
+.Interet {
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #275FA0;
+}
+
+button:hover {
+    background-color: #88c1d0;
+    color: #FFCA4B;
+}
+a:hover {
+    color: #FFCA4B;
+}

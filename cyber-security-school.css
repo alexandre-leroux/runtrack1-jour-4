@@ -1,0 +1,102 @@
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #88c1d0;
+    overflow-x: hidden;
+}
+
+main {
+    padding: 2rem;
+    text-align: justify;
+    
+}
+
+.videosetmainArticle {
+    display: flex;
+}
+
+.mainArticle {
+    width: 490px;
+    padding-right: 5px;
+    margin: auto;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    padding-left: 5px;
+    margin: auto;
+    float: left;
+}
+
+button {
+    justify-content: center;
+    font-size: large;
+    padding : 20px;
+    border-radius: 35%;
+    border-color: solid 1px #FFCA4B;
+    background-color: #FFCA4B;
+}
+.Informations-Inscription {
+    width: 20%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #275FA0;
+}
+
+button:hover {
+    background-color: #88c1d0;
+    color: #FFCA4B;
+}
+a:hover {
+    color: #FFCA4B;
+}
+
+.pc {
+    width: 100px;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.presFormation {
+    display: flex;
+   align-items: stretch;
+   justify-content: space-between;
+
+}
+
+.Professionnel {
+    background-color: white;
+    border-radius: 25px;
+    text-align: left;
+    border: solid #275FA0;
+    padding: 4px;
+    justify-content: center;
+    width: 30%;
+
+
+}
+.Responsable {
+    background-color: white;
+    border-radius: 25px;
+    text-align: left;
+    border: solid #275FA0;
+    padding: 4px;
+    justify-content: center;
+    width: 30%;
+
+}
+.Expert {
+    background-color: white;
+    border-radius: 25px;
+    text-align: left;
+    border: solid #275FA0;
+    padding: 4px;
+    justify-content: center;
+    width: 30%;
+
+}
